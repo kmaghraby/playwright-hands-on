@@ -13,3 +13,10 @@ jobs:
           node-version: '14'
       - run: npm install -g bats
       - run: bats -v
+      - uses: microsoft/playwright-github-action@v1
+
+      - name: Install dependencies and run tests
+        run: npm install
+      
+      - name: Run tests
+        run: npm run tests:cross-browsers
