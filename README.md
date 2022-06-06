@@ -1,4 +1,4 @@
-# Playwright Automation Hands on
+# Playwright Automation Hands-on
 Automation tests for saucedemo.com website.
 
 ## Installation
