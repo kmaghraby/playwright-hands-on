@@ -1,0 +1,18 @@
+{
+  "name": "handson-task",
+  "version": "1.0.0",
+  "description": "Automation task for handson",
+  "main": "index.js",
+  "scripts": {
+    "tests:cross-browsers": "playwright test --config=playwright.config.ts",
+    "tests:e2e-chromium": "playwright test --config=playwright.config.ts --project=Chromium",
+    "tests:e2e-firefox": "playwright test --config=playwright.config.ts --project=Firefox",
+    "tests:e2e-webkit": "playwright test --config=playwright.config.ts --project=Webkit"
+  },
+  "author": "Kareem Elmaghraby",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.22.2",
+    "prettier": "^2.6.2"
+  }
+}
