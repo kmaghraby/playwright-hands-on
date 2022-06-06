@@ -1,8 +1,5 @@
 name: github-actions-workflow
-on: 
-  push:
-    branches:
-      - master
+on: [push]
 jobs:
   check-bats-version:
     runs-on: ubuntu-latest
